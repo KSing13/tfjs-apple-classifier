@@ -1,17 +1,5 @@
 /**
  * Supervised Learning: Apple CNN Classifier
- *
- * Requirements:
- * 1. Node.js environment.
- * 2. `npm install @tensorflow/tfjs-node`.
- * 3. A directory structure for training data:
- * /train-images/
- * /Green Apple/
- * r0_3_100.jpg
- * ...
- * /Red Apple/
- * r0_3_100.jpg
- * ...
  */
 const tf = require("@tensorflow/tfjs-node");
 const fs = require("fs");
